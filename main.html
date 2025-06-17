@@ -1,16 +1,95 @@
 <!DOCTYPE html>
-
-<html>
-
+<!--
+    This is the document type declaration. It tells the browser which HTML version to use.
+    In this case, it's HTML5.
+-->
+<html lang="en">
+<!--
+    The <html> tag is the root element of an HTML page.
+    The 'lang="en"' attribute specifies the language of the document as English,
+    which is good for accessibility.
+-->
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <!--
+        The <head> element contains meta-information about the HTML document.
+        This information is not displayed on the web page itself.
+    -->
+    <meta charset="UTF-8">
+    <!--
+        The <meta charset="UTF-8"> tag specifies the character encoding for the document,
+        which is essential for proper display of various characters.
+    -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--
+        The <meta name="viewport"> tag is crucial for responsive design,
+        ensuring the page scales correctly across different devices.
+    -->
+    <title>My First HTML Page</title>
+    <!--
+        The <title> element sets the title of the document,
+        which appears in the browser's title bar or tab.
+    -->
+    <style>
+        /*
+            This is a style block where CSS rules are defined.
+            The #text selector targets the div element with id="text".
+        */
+        #text {
+            font-family: "Inter", sans-serif; /* Specifies the font family for the text */
+            color: #333; /* Sets the text color to a dark gray */
+            font-size: 24px; /* Increases the font size for better visibility */
+            text-align: center; /* Centers the text horizontally */
+            margin-top: 20px; /* Adds some space above the div */
+            padding: 15px; /* Adds padding inside the div */
+            border: 1px solid #ccc; /* Adds a light gray border around the div */
+            border-radius: 8px; /* Rounds the corners of the border */
+            background-color: #f9f9f9; /* Sets a light background color for the div */
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for depth */
+        }
+        /* Styling for the new paragraph */
+        p {
+            font-family: "Inter", sans-serif;
+            color: #555;
+            font-size: 16px;
+            line-height: 1.5;
+            margin-bottom: 15px;
+            text-align: center; /* Centering the paragraph text as well */
+        }
+        /* Styling for the new h2 heading */
+        h2 {
+            font-family: "Inter", sans-serif;
+            color: #222;
+            text-align: center;
+            margin-top: 30px;
+            margin-bottom: 10px;
+        }
+    </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
+    <!--
+        The <body> element contains all the visible content of the HTML document,
+        such as headings, paragraphs, images, links, etc.
+    -->
+    <h1>Hello World</h1>
+    <!--
+        The <h1> element defines a main heading.
+        There are six levels of headings in HTML, from <h1> (most important) to <h6> (least important).
+    -->
+    <h2>Introducing the Accio Ipsum</h2>
+    <!--
+        The <h2> element defines a secondary heading.
+    -->
+    <p>Accio ipsum dolor sit amet, join course, solve assignments, get placed above 5 lpa and live life king size.</p>
+    <!--
+        The <p> element defines a paragraph of text.
+    -->
+    <div id="text">
+        <!--
+            This <div> element serves as a container for the text.
+            It has an 'id' attribute set to "text" for easy identification and styling.
+        -->
+        Welcome to the world of Web development
+    </div>
 </body>
-
 </html>
+ode here. */
